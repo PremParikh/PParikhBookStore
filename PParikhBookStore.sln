@@ -5,16 +5,18 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PParikhBookStore", "PParikhBookStore\PParikhBookStore.csproj", "{D8C5B974-28C5-4A08-B638-40769E64C768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PParikhBooks.DataAccess", "PParikhBooks.DataAccess\PParikhBooks.DataAccess.csproj", "{7F75128A-4C3F-48AD-AA3D-EF722A27EE75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PParikhBooks.DataAccess", "PParikhBooks.DataAccess\PParikhBooks.DataAccess.csproj", "{7F75128A-4C3F-48AD-AA3D-EF722A27EE75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PParikhBooks.Models", "PParikhBooks.Models\PParikhBooks.Models.csproj", "{43F40EF5-0BE3-45C9-994F-FD12E0F91F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PParikhBooks.Models", "PParikhBooks.Models\PParikhBooks.Models.csproj", "{43F40EF5-0BE3-45C9-994F-FD12E0F91F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PParikhBooks.Utility", "PParikhBooks.Utility\PParikhBooks.Utility.csproj", "{C319B805-6143-4465-8046-F6FEB6F1885C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PParikhBooks.Utility", "PParikhBooks.Utility\PParikhBooks.Utility.csproj", "{C319B805-6143-4465-8046-F6FEB6F1885C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA5242D0-5ADD-4978-8507-DA041F6EABE8}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PParikhBooks.DataAccess2", "PParikhBooks.DataAccess2\PParikhBooks.DataAccess2.csproj", "{C5C42E66-8E42-4C0C-970D-D777335178EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{C319B805-6143-4465-8046-F6FEB6F1885C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C319B805-6143-4465-8046-F6FEB6F1885C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C319B805-6143-4465-8046-F6FEB6F1885C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C42E66-8E42-4C0C-970D-D777335178EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C42E66-8E42-4C0C-970D-D777335178EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C42E66-8E42-4C0C-970D-D777335178EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C42E66-8E42-4C0C-970D-D777335178EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

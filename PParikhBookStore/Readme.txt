@@ -94,6 +94,7 @@
 //getting an error
 //resolve it
 //Update the Database: & confirm the new categories
+
 //Part 2: Repository :8:00PM 13/11/2022
 //Creating Caregory.cs 
 //Adding a ApplicationDbContext 
@@ -102,11 +103,13 @@
 //Add folder: 'repository' 
 //Add IRepository for the interfaces folder inside it.
 //Add a new item of type interface to the folder
+
 //Name it: IRepository.cs
 // Modify: it can be used on the category class to do akk the CRUD operayion
 // Method of CRUD
 // GET ITEM FROM THE DB
 // LIST OF CATEGORIES
+
 // ADD OBJECT
 // REMOVE OBJECT
 // implement the class 
@@ -130,6 +133,7 @@
 // Implement a NEW CLASS > REPOSITORY
 // Add a class SP_Call.cs in REPO folder
 // select the appropriate using statement
+
 // Add a connection to the database
 // UPDATE IDP_Call interface
 // NOW add the wrapper For unit of work
@@ -137,6 +141,7 @@
 // UPDATE THE CODE
 // Inside the UNITOFWORK (ADD A CLASS)
 // Modify the Code
+
 // MAKE SURE the public class implements the interface - UNITOFWORK > IUNITOFWORK
 // Accessible by the project, register it > Startup.cs in ConfigureServices 
 // Build and correct any ERRORS, push commits to GITHUB
@@ -145,6 +150,7 @@
 //Accessible with DI by any controller
 // Close all opend tab
 // ADD a new MVC Controller - inside Areas>Admin
+
 // Category.cs : Name
 // Modify the code to use the IUNITOFWORKS from
 // .DataAccess project and IREPOSITORY Folder
@@ -152,6 +158,7 @@
 // Add a new Folder in AREAS > VIEW With the name of Controller
 // ADD a new INDEX View to the folder
 // Modify with the generic HTML Code From the Category Index View.txt
+
 // WHich is Available in blackboard
 // SAVE AND RUN
 // _Layout.cshtml > 'Category' Link to content Management drop_down
@@ -159,18 +166,22 @@
 // Push to GITHUB
 // Modify the INDEX.CSHTML to ADD the icons in the Category section from Font Awesome and Confirm
 // Delete it and add the JS file from blackboard into the WWWROOT > JS folder
+
 // NOTE : 'div' is now in the return portion of category.js
 // ADD the @section call to the CATEGORY.JS Script 
 // run the project
 // Time to Apply the code to active 'EDIT' & 'DELETE' button
 // 'Create New Category' using the Upsert action
 // Add the IAction result to the Controller
+
+//part3-started on 23/11/2022 1:00PM
 // Add a View 
 // COPY and ADD the html > Category Upsert View.txt
 // Create a partial View for the EDIT > BACK
 // general Views > Shared folder
 // ADD the partial View for _CreateAndBackToListButton 
 // cshtml and add the asp-action
+
 // create another partial view for _EDITANDBACKTOLISTBUTTON 
 // Note the code addition of @model rozer statement
 // Modify the Upsert.cshtml 
@@ -179,6 +190,7 @@
 // Modify Upsert.cshtml 
 // Now title uses the #title variable and refresh the APP.
 // ADD @section call to script to validate input on the client-side and test.
+
 // NOW create an Upsert POST action in the CategoryController.cs
 // Save method is not available.
 // NOW ADD the void save() method to the IUNITOFWORK Interface
@@ -186,18 +198,20 @@
 // Move the _unitOfWork.save() method the return RedirectToaction method
 // Check for ERROR and test whether the application can updATE
 // Create a category
+
 // Add the API call for HTTPDelete in the Categorycontroller.cs
 // Implement the HTTPDelete with a delete method in category.js 
 // to ADD functionality to the application and call the API
 // Add the delete in category.js WITH including
 // ADD the delete URL function code
 // uses the SWEET_ALERT for success and ERROR messsage
+
 // Uses Toastr for NOTIFICATION
 // After this has been added, save, check for ERROR and RUN & test the app
 // UPDATE README 
 // It's time to push on GITHUB
 // that's end of part-2
 //Getting Error and it's solved
-//it's almost 1:32AM 14/11/2022
+//it's almost 1:32AM 24/11/2022
 //END.......
 
